@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatapp</title>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body>
+  <div id="main">
+<div class="chatbox" >
+  <div class="appname">
+    <img src="https://cdn-icons-png.flaticon.com/512/1182/1182686.png" alt="">
+    <h1>Mera Chat app</h1>
+  </div>
+  <div class="appcenter">
+
+
+
+  </div>
+  <textarea  id="textarea" cols="30" rows="1" placeholder="Write a message"></textarea>
+</div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js" integrity="sha512-xbQU0+iHqhVt7VIXi6vBJKPh3IQBF5B84sSHdjKiSccyX/1ZI7Vnkt2/8y8uruj63/DVmCxfUNohPNruthTEQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    var socket = io();
+  </script>
+  <script src="/javascripts/client.js"></script>
+</body>
+</html>
